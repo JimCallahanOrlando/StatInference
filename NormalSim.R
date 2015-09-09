@@ -18,5 +18,3 @@ for (i in 1 : 1000) mns = c(mns, mean(runif(40)))
 hist(mns)
 
 # End of: NormalSim.R
-
-
