@@ -5,7 +5,6 @@ date: "September 17, 2015"
 output: html_document
 ---
 
-
 ### Overview
 In this project we demonstrate how averages of an asymetric distribution
 (the possion distribution) converge to a symetric normal distribution.
@@ -21,8 +20,36 @@ slide 8/20 "A Trip to Asymptopia" in Asymptopia.pdf
 Include English explanations of the simulations you ran, with the accompanying R code. 
 Your explanations should make clear what the R code accomplishes.
 
+In this project you will investigate the exponential distribution in R 
+and compare it with the Central Limit Theorem. 
+The exponential distribution can be simulated in R with rexp(n, lambda) 
+where lambda is the rate parameter. The mean of exponential distribution is 1/lambda 
+and the standard deviation is also 1/lambda. **Set lambda = 0.2** 
+for all of the simulations. 
+
+You will investigate the distribution of averages of 40 exponentials. 
+Note that you will need to do a thousand simulations.
+
 Get code from ExponentialSim.R
 
+```{r}
+# Simulate 1000 random exponentials
+x <- rexp(1000, rate = 0.2)
+
+# Plot the empirical results of the simulation
+# Use density instead of frequency so the theoretical curve will fit.
+hist(x, freq=F,
+     main = "Histogram of 1,000 random exponentials
+             \n with overlay of theoretical density",
+     xlab = "Simulated value of x",
+     ylab = "Probability Density"
+     )
+
+
+# Overlay a plot a theoretical exponential density curve
+curve(dexp(x, rate = 0.2), add=T, col="Red")
+
+```
 
 
 ### Sample Mean versus Theoretical Mean
