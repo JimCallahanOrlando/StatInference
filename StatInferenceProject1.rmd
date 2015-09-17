@@ -1,0 +1,59 @@
+---
+title: "Simulation of a Convergence to the Normal Distribution"
+author: "Jim Callahan"
+date: "September 17, 2015"
+output: html_document
+---
+
+
+### Overview
+In this project we demonstrate how averages of an asymetric distribution
+(the possion distribution) converge to a symetric normal distribution.
+
+This convergence is an application of the Central Limit Theorem (CLT).
+"For our purposes, the CLT states that the distribution of averages of iid variables, 
+properly normalized, becomes that of a standard normal as the sample size increases"
+slide from Dr. Brian Caffo's *"Statistical Inference"* class
+slide 8/20 "A Trip to Asymptopia" in Asymptopia.pdf
+
+
+### Simulations
+Include English explanations of the simulations you ran, with the accompanying R code. 
+Your explanations should make clear what the R code accomplishes.
+
+Get code from ExponentialSim.R
+
+
+
+### Sample Mean versus Theoretical Mean
+Include figures with titles. In the figures, highlight the means you are comparing. 
+Include text that explains the figures and what is shown on them, 
+and provides appropriate numbers.
+
+
+### Sample Variance versus Theoretical Variance
+Include figures (output from R) with titles. Highlight the variances you are comparing. 
+Include text that explains your understanding of the differences of the variances.
+
+### Distribution
+Via figures and text, explain how one can tell the distribution is approximately normal.
+
+
+
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
