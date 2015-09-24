@@ -16,7 +16,7 @@ h1 <- hist(x, freq=F)
 h1
 curve(dexp(x, rate = 0.2), add=T, col="Red")
 
-# with the distribution of 1000 averages of 40 random uniforms
+# with the distribution of 1000 averages of 40 random exponentials
 mes = NULL
 for (i in 1 : 1000) mes = c(mes, mean(rexp(40, rate = 0.2)))
 x <- mes
