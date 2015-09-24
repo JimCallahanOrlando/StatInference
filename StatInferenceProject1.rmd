@@ -2,7 +2,7 @@
 title: "Simulation of a Convergence to the Normal Distribution"
 author: "Jim Callahan"
 date: "September 23, 2015"
-output: pdf_document
+output: html_document
 ---
 
 ### Overview
@@ -209,15 +209,15 @@ observations is closer to normal than the underlying exponential distribution.
 Statisical Inference Class  
 
 **Dr. Brian Caffo**, *"Statistical Inference"* class slides  
-- Central Limit Theorem, slide 8/20 "A Trip to Asymptopia" in Asymptopia.pdf  
+ * Central Limit Theorem, slide 8/20 "A Trip to Asymptopia" in Asymptopia.pdf  
 
 External  
 
 **Dr. Peter Dalgaard**, *"Introductory Statistics with R"*, book  
-- pages 31-32, histogram  
-- pages 64-65, Q-Q plots  
+ * pages 31-32, histogram  
+ * pages 64-65, Q-Q plots  
 
 
-**Phillip K. Janert**, *"Data Analysis with Open Source Tools"*, book 
-- pages 25-26 "Optional: Comparing Distributions with Probability and QQ Plots"
-
+**Phillip K. Janert**, *"Data Analysis with Open Source Tools"*, book  
+ * pages 25-26 "Optional: Comparing Distributions with Probability and QQ Plots"  
+ 
